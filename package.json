@@ -1,0 +1,36 @@
+{
+  "name": "starship-battle",
+  "version": "1.0.0",
+  "description": "A computer game similar to those from the '90s.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dneldik/Starship-battle.git"
+  },
+  "author": "dneldik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dneldik/Starship-battle/issues"
+  },
+  "homepage": "https://github.com/dneldik/Starship-battle#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "csv-loader": "^3.0.3",
+    "file-loader": "^6.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "lodash": "^4.17.20"
+  }
+}
