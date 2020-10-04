@@ -12,53 +12,7 @@ Run `npm run docs` to update it.
 
 ## Code documentation:
 
-## Modules
-
-<dl>
-<dt><a href="#module_create-canvas">create-canvas</a></dt>
-<dd><p>Adds a canvas element to the HTML document.</p>
-</dd>
-<dt><a href="#module_index">index</a></dt>
-<dd><p>This is the main module.</p>
-</dd>
-</dl>
-
-<a name="module_create-canvas"></a>
-
-## create-canvas
-Adds a canvas element to the HTML document.
-
-
-* [create-canvas](#module_create-canvas)
-    * [~createCanvas()](#module_create-canvas..createCanvas) ⇒ <code>Object</code>
-    * [~setResolution(res)](#module_create-canvas..setResolution)
-
-<a name="module_create-canvas..createCanvas"></a>
-
-### create-canvas~createCanvas() ⇒ <code>Object</code>
-Finds a div element with the id placeholderId from config.json.
-Creates a canvas element and replaces the found div with it.
-Adds the `setResolution` method to the canvas object.
-
-**Kind**: inner method of [<code>create-canvas</code>](#module_create-canvas)  
-**Returns**: <code>Object</code> - a reference to the canvas object  
-<a name="module_create-canvas..setResolution"></a>
-
-### create-canvas~setResolution(res)
-Changes the `width` and` height` attributes of the canvas element.
-
-**Kind**: inner method of [<code>create-canvas</code>](#module_create-canvas)  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| res | <code>Object</code> | contains two properties of Number type: `w` - width of the canvas element, `h` - height of the canvas element. |
-
-<a name="module_index"></a>
-
-## index
-This is the main module.
-
-**Requires**: <code>module:./src/create-canvas.js</code>  
+{{>main}}
 
 * * *
 
